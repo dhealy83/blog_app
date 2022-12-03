@@ -1,0 +1,6 @@
+<%# This if statment tell the alerts not to ake space up on the page unless there is an actual alert. %>
+<% if notice %>
+  <p class="notice"><%= notice %></p>
+<% elsif alert %>
+  <p class="alert"><%= alert %></p>
+<% end %>
